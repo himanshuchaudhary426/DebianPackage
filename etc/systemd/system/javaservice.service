@@ -1,0 +1,14 @@
+[Unit]
+Description= Manage java service
+
+[Service]
+WorkingDirectory=/opt/classes
+ExecStart=/usr/bin/java -jar Zshape.jar
+User=himanshu
+Type=simple
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+

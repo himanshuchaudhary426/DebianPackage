@@ -1,0 +1,9 @@
+Package: mydebpkg
+Version: 0.1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: openjdk-11-jdk
+Maintainer: Himanshu Chaudhary
+Description: run .class file as service
+
